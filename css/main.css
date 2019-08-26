@@ -1,0 +1,169 @@
+/*
+--FONTS--
+font-family: 'Coda', cursive;
+font-family: 'Oxygen', sans-serif;
+*/
+
+/***** BODY *****/
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    background: #464655;
+    color: #ddd;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Coda', serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.full-grid {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-grid {
+    width: 600px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+}
+
+.third-grid {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header h1 {
+    margin: 0;
+    padding: 100px 150px;;
+}
+
+header nav h3 {
+    padding-left: 50px;
+    display: inline-block;
+}
+
+header nav {
+    line-height: 40px;
+}
+
+header nav ul {
+    float: right;
+    list-style: none;
+    padding-right: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+nav ul li a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+nav ul li a:hover, nav span {
+    color: #ffba08;
+}
+
+#hero {
+    background-image: url(/img/hero-img.png);
+    height: 400px;
+}
+
+#hero span {
+    color: #ffba08;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio h2 {
+    text-align: center;
+    line-height: 60px;
+}
+
+#portfolio h6, #portfolio h2 {
+    color: #ffba08;
+}
+
+#second-project-text {
+    text-align: right;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+#portfolio h6, #portfolio h4 {
+    margin: 0;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+
+.text {
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+
+#third-project-image {
+    margin-bottom: 60px;
+}
+
+/***** ABOUT *****/
+
+#about {
+    /* padding: 60px; */
+    clear: both;
+    background-image: url(/img/collab.png);
+    height: 600px;
+}
+
+#about h2 {
+    padding-top: 40px;
+    text-align: center;
+    color: #464655;
+    padding-bottom: 50px;
+}
+
+#about-description {
+    margin-left: 100px;
+    color: #464655;
+    padding: 40px;
+    background: rgba(255, 255, 255, .7);
+    border-radius: 10px;
+}
+
+#about-description p {
+    line-height: 25px;
+    padding: 20px 0 10px 0;
+}
+
+/***** CONNECT *****/
+
+#connect {
+    text-align: center;
+}
+
+.icon {
+    color: #ffba08;
+    font-size: 50px;
+    padding: 30px;
+}
+
+
+/***** FOOTER *****/
+
+footer {
+    height: 60px;
+    line-height: 60px;
+    clear: both;
+    text-align: center;
+}

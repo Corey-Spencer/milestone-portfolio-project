@@ -3,28 +3,32 @@
     <head>
         <title>Corey Spencer | Portfolio</title>
         <script src="https://kit.fontawesome.com/1445bda0c6.js"></script>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Coda|Oxygen&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <header class="full-width">
             <nav>
-                <h3>&lt; corey spencer | web developer /&gt;</h3>
+                <h3>&lt; corey spencer | <span>web developer</span> /&gt;</h3>
                 <ul>
                     <li><a href="#portfolio">portfolio</a></li>
                     <li><a href="#about">about</a></li>
                     <li><a href="#connect">contact</a></li>
                 </ul>
             </nav>
-            <div class="full-width">
-                <h1>let's <span>code</span></h1>
+            <div id="hero" class="full-width">
+                <h1>let's <span>code</span><br> something cool</h1>
+
             </div>
         </header>
-        <section id="portfolio" class="full-width">
+        <section id="portfolio" class="full-grid">
             <h2>my portfolio</h2>
             <div class="full-grid">
-                <div class="half-grid">
+                <div id="first-project-img" class="half-grid image">
                     <img src="/img/rogue-pickings.png" alt="Rogue Pickings website">
                 </div>
-                <div class="half-grid">
+                <div id="first-project-text" class="half-grid text">
                     <h4>Rogue Pickings Website</h4>
                     <h6>HTML &amp; CSS from Photoshop Design Comp</h6>
                     <p>
@@ -32,7 +36,7 @@
                         was left to determine and build the structure and style from the image provided.
                     </p>
                 </div>
-                <div class="half-grid">
+                <div id="second-project-text" class="half-grid text">
                     <h4>Jubilee Austen Project</h4>
                     <h6>HTML 5 &amp; CSS Website</h6>
                     <p>
@@ -41,13 +45,13 @@
                         and implement them into HTML and CSS.
                     </p>
                 </div>
-                <div class="half-grid">
+                <div id="second-project-image" class="half-grid image">
                     <img src="/img/jubilee-austen.png" alt="Jubilee Austen website">
                 </div>
-                <div class="half-grid">
+                <div id="third-project-image" class="half-grid image">
                     <img src="/img/holstee-manifesto.png" alt="Holstee Manifesto design">
                 </div>
-                <div class="half-grid">
+                <div id="third-project-text" class="half-grid text">
                     <h4>Holstee Manifesto</h4>
                     <h6>HTML 5 &amp; CSS Exercise</h6>
                     <p>
@@ -59,30 +63,32 @@
         </section>
         <article id="about" class="full-width">
             <h2>about me</h2>
-            <div class="half-grid">
-                <h4>I'm passionate about web development.</h4>
-                <p>
-                    It started with a curiosity about how websites work, how do they function, how are 
-                    they built. Before I knew it I was taking classes online and building them myself. 
-                    I enjoy being able to imagine a website and write some code to make it come to life.
-                </p>
-                <p>I'm looking forward to working with you!</p>
+            <div class="full-width">
+                <div id="about-description" class="half-grid">
+                    <h4>I'm passionate about web development.</h4>
+                    <p>
+                        It started with a curiosity about how websites work, how do they function, how are 
+                        they built. Before I knew it I was taking classes online and building them myself. 
+                        I enjoy being able to imagine a website and write some code to make it come to life.
+                    </p>
+                    <p>I'm looking forward to working with you!</p>
+                </div>
             </div>
         </article>
-        <section id="connect" class="full-width">
+        <section id="connect" class="full-grid">
             <h2>let's connect</h2>
-            <div class="third-width">
+            <div class="third-grid">
                 <h4>Hire me</h4>
                 <p>555-555-5555</p>
                 <p>hello@example.com</p>
             </div>
-            <div class="third-width">
+            <div class="third-grid">
                 <h4>Follow me</h4>
-                <a href="#"><i class="fab fa-twitter-square"></i></a>
-                <a href="#"><i class="fab fa-github-square"></i></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="icon"><i class="fab fa-twitter-square"></i></a>
+                <a href="#" class="icon"><i class="fab fa-github-square"></i></i></a>
+                <a href="#" class="icon"><i class="fab fa-linkedin"></i></a>
             </div>
-            <div class="third-width">
+            <div class="third-grid">
                 <h4>Meet me</h4>
                 <p>Nebraska</p>
                 <p>Let's go to meetups together!</p>
